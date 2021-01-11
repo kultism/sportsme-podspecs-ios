@@ -11,9 +11,9 @@ Pod::Spec.new do |s|
   s.version          = '1.0.6'
   s.summary          = 'A utility class on top of AWSLogs to store the logs in Local DB and then sending to CloudWatch.'
   s.swift_version    = '5.0'
-  s.homepage         = 'https://github.com/getsportsme/sportsme-awslogging-ios'
+  s.homepage         = 'https://github.com/kultism/sportsme-awslogging-ios'
   s.license          = { :type => 'Apache-2.0', :file => 'LICENSE' }
-  s.source           = { :git => 'https://github.com/getsportsme/sportsme-awslogging-ios.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/kultism/sportsme-awslogging-ios.git', :tag => s.version.to_s }
   s.author           = { "Rajasekhar Pattem" => "rajasekhar.pattem@tarams.com" }
   s.ios.deployment_target = '11.0'
   s.source_files = 'AWSLogsWrapper/Classes/**/*'
