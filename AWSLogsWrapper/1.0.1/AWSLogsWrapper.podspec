@@ -12,10 +12,10 @@ Pod::Spec.new do |s|
   s.summary          = 'A utility class on top of AWSLogs to store the logs in Local DB and push in batches'
   s.description          = 'A utility class on top of AWSLogs to store the logs in Local DB if there is no internetconnection. Once intenet connection is available the stored logs are pushed to AWS CloudWatch'
   s.swift_version    = '5.0'
-  s.homepage         = 'https://github.com/getsportsme/sportsme-awslogging-ios'
+  s.homepage         = 'https://github.com/kultism/sportsme-awslogging-ios'
   s.license          = { :type => 'Apache-2.0', :file => 'LICENSE' }
   s.author           = { 'Tarams Inc' => 'rajasekhar.pattem@tarams.com' }
-  s.source           = { :git => 'https://github.com/getsportsme/sportsme-awslogging-ios.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/kultism/sportsme-awslogging-ios.git', :tag => s.version.to_s }
   s.ios.deployment_target = '11.0'
   s.source_files = 'AWSLogsWrapper/Classes/**/*'
   s.dependency 'AWSLogs'
